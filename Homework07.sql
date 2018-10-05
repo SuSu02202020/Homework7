@@ -97,7 +97,7 @@ WHERE first_name = 'HARPO' AND last_name = 'Williams';
 
 SHOW CREATE table address;
 
-CREATE TABLE IF NOT EXISTS address(
+/*CREATE TABLE IF NOT EXISTS address(
 	address_id smallint(5) AUTO_INCREMENT NOT NULL,
     address VARCHAR(50) NOT NULL,
     district VARCHAR(20) NOT NULL,
@@ -106,7 +106,7 @@ CREATE TABLE IF NOT EXISTS address(
     phone VARCHAR(20) NOT NULL,
     location geometry NOT NULL,
     last_update timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
+);*/
 
 
 /* 6a. Use `JOIN` to display the first and last names, as well as the address, of each staff member. 
